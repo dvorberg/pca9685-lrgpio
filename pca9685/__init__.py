@@ -17,7 +17,7 @@ motor. This is how I encountered the PCA9685: As key component of a
 "Servo Driver" PCB and this is how I use it the most.
 
 The controller has 16 PWM outputs each controled by two
-12bit-values as stated in the [datasheet](https://ww1.microchip.com/downloads/en/devicedoc/20001952c.pdf):
+12bit-values as stated in the [datasheet](https://www.nxp.com/docs/en/data-sheet/PCA9685.pdf):
 
 > There will be two 12-bit registers per LED output. These registers
 > will be programmed by the user. Both registers will hold a value

@@ -14,3 +14,10 @@ appear darker or brighter to the human eye. The quality of its output
 signal is high enough to create a control signal for a servo
 motor. This is how I encountered the PCA9685: As key component of a
 "Servo Driver" PCB and this is how I use it the most.
+
+* [API Reference](https://dvorberg.github.io/pca9685-lrgpio/pca9685.html) 
+* [PCA9685 datasheet](https://www.nxp.com/docs/en/data-sheet/PCA9685.pdf)
+* A hopefully growing number of examples in `examples/`. 
+
+This project depends on my
+[i2cutils-lrgpio](https://github.com/dvorberg/i2cutils-lrgpio) module.
