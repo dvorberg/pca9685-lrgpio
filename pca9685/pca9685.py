@@ -108,6 +108,11 @@ class Controller(Controller, Device):
     1: Low power mode. Oscillator off. Cf. footnotes to datasheet
        Table 5 for details. 
     """
+
+    prescale:int = ByteRegister(PRESCALE)
+    """
+    The prescaler bits to program the PWM output frequency.
+    """
     
     def __init__(self, sbc:SBC, i2c_bus:int, address:int):
         """
