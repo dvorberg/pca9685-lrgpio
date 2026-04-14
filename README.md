@@ -19,5 +19,7 @@ motor. This is how I encountered the PCA9685: As key component of a
 * [PCA9685 datasheet](https://www.nxp.com/docs/en/data-sheet/PCA9685.pdf)
 * A hopefully growing number of examples in `examples/`. 
 
-This project depends on my
+This project depends on This project depends on
+[rgpio](http://abyz.me.uk/lg/py_lgpio.html) or
+[lgpio](http://abyz.me.uk/lg/py_rgpio.html) and my
 [i2cutils-lrgpio](https://github.com/dvorberg/i2cutils-lrgpio) module.
